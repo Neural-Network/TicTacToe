@@ -36,9 +36,10 @@ while count in range(0, 9) and end == 0:
     firstplayer = firstplayer * -1
     count = count+1
 grid.append(player1win)
-f = open('data.txt', 'w')
-print(grid, file=f)
 
+f = open('data.txt', 'a')
+f.writelines("%s" % item for item in grid)
+f.writelines("\n")
 f.close()
 
 
