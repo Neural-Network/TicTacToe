@@ -1,6 +1,6 @@
 from random import randint
 
-for game in range(100):
+for game in range(1000):
     grid = [0 for x in range(9)]
     firstplayer = 1
     count = 0
