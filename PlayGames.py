@@ -80,6 +80,7 @@ for game in range(1000):
                         win = 2
                         break
                     elif occupyNum==9 and win !=1 and win !=2:
+                        win = 0
                         print" "
                         print"Draw!"
                         print("==============================")
